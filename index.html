@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to-do-list</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Heebo&family=Noto+Sans:wght@100&family=Nunito:wght@700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/74836d6fe4.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+ <main>   <nav class="nav">
+       <a href="#top-contant">HOME</a>
+       <a href="#todo">To-do</a>
+       
+    </nav>
+
+    <div id ="top-contant">
+        <h1>Plan your day </h1>
+        <p>make plans ,and stay productiv !</p>
+     
+    </div></main>
+    <h2>Add your task hare</h2>
+    <div id="todo" class="todo">
+        <form class="form"> 
+            <input type="text",placeholder="plans"class="name" required>
+            <input type="button" value="add" class="submit">
+        </form>
+        <div class="task-box">Add Your Tasks <span class="for-btn"> <i class="fa-solid fa-square-check" onclick="done()"></i> <i class="fa-solid fa-square-minus" onclick="remove()"></i></span></div>
+
+    </div>
+    <footer>
+        <p>made by bhaskar bhandari ❤️</p>
+    </footer>
+</body><script src="script.js" defer></script>
+<script src="https://kit.fontawesome.com/74836d6fe4.js" crossorigin="anonymous"></script>
+
+</html>

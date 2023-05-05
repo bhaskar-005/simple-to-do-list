@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Heebo&family=Noto+Sans:wght@100&family=Nunito:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    align-items: center;
+    text-align: center;
+   padding: 10px;
+
+}
+
+.nav a{
+    padding: 6vh;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: rgb(21, 62, 62);
+    
+}
+main{
+    background-image: url("bgi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#top-contant{
+    background-color: rgba(33, 33, 34, 0.663);
+    height: 400px;
+   
+    
+
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    text-align: center;
+     font-size: 8vh;
+     font-weight: 600;
+     padding-top: 49px;
+}
+p{
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-weight: 100;
+   text-align: center;
+   margin-top: 10px;
+}
+h2{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(21, 62, 62);
+}
+#todo{
+    background-color: rgb(243, 246, 246);
+  /* padding: 50px;
+   align-items: center; */
+   padding-bottom: 20px;
+   
+   
+
+}
+.form{
+display: flex;
+  max-height: 19vw;
+  
+  justify-content: space-between;
+  
+  padding: 7vw;
+}
+
+
+
+.form input{
+    padding: 13px;
+}
+.name{
+    width: 70%;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.submit{
+    width: 20%;
+    outline: none;
+    border: none;
+    background-color: rgb(83, 72, 72);
+    color: aliceblue;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: rgb(170, 166, 166);
+    color: rgb(83, 72, 72);
+    transition: all 0.5s;
+}
+.task-box{
+     margin-right: 7vw;
+     margin-left: 7vw;
+     border: 1px solid rgba(0, 0, 0, 0.479);
+     padding: 14px;
+     background-color: rgb(255, 255, 255);
+     font-size: 1.3rem;
+     font-family: Arial, Helvetica, sans-serif;
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 20px;
+    
+}
+.for-btn{
+    font-size: 2rem;
+   color: rgb(83, 72, 72);
+   padding-bottom: 0;
+   
+}
+.for-btn {
+    color: rgb(184, 50, 50);
+
+}
+
+.fa-square-check{
+    color: rgb(50, 184, 61);
+    
+}
+
+.for-btn:hover{
+cursor: pointer;
+}
+footer{
+    background-color: rgb(83, 72, 72);
+    padding-top:20px;
+    padding-bottom:20px;
+    margin-top: 200px;
+}
